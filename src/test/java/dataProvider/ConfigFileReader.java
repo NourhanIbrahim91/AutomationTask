@@ -33,11 +33,4 @@ public class ConfigFileReader {
         if(imgPath!= null) return Integer.parseInt(imgPath);
         else throw new RuntimeException("imgPath not specified in the Configuration.properties file.");
     }
-
-
-
-
-
-
-
 }
